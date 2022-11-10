@@ -1,0 +1,19 @@
+div{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    background-image: url('./fundo.jpg'); /* Usado para passar a imagem de fundo */
+    background-repeat: no-repeat;
+
+    /*background-size: cover = vai fazer a imagem cobrir a div inteira
+      background-size: auto = esticar a imagem para todos os lados
+      background-size: contain = esticar imagem para cima
+      background-repeat: no repeat = imagem nao vai se repetir na div 
+      background-position: ex top right = vai posicionar a imagem dentro da div
+      background: linear-gradient = cria um degradê com as cores na div */
+
+}
+p{
+    width: 500px;
+    background: linear-gradient(red,blue);
+}
